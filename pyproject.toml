@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "vin_decoder_nhtsa"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
   { name="Alex Conrey", email="alex@conrey.engineering" },
 ]
