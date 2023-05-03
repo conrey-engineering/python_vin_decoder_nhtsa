@@ -14,7 +14,7 @@ class Vin():
         self.VIN = vin
         data = self._search()
         for k, v in data[0].items():
-            if v is '':
+            if v == '':
                 v = None
             setattr(self, k, v)
 
